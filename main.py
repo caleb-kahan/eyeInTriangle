@@ -1,6 +1,7 @@
 from display import *
 from draw import *
 from parser import *
+from parser2 import *
 from matrix import *
 import math
 
@@ -21,15 +22,15 @@ light = [[0.5,
           255,
           255]]
 normalize(light[0])
-areflect = [.1,
-            .1,
-            .1]
-dreflect = [.5,
-            .5,
-            .5]
-sreflect = [.5,
-            .5,
-            .5]
+areflect = [0.1,
+            0.1,
+            0.1]
+dreflect = [0.5,
+            0.5,
+            0.5]
+sreflect = [0.5,
+            0.5,
+            0.5]
 
 
 
@@ -44,4 +45,4 @@ csystems = [ t ]
 
 
 parse_file( 'script', edges, polygons, csystems, screen, zbuffer, color, view, ambient, light, areflect, dreflect, sreflect)
-#parse_file2( 'fullHead.txt', edges, polygons, csystems, screen, zbuffer, color, view, ambient, light, areflect, dreflect, sreflect)
+#parse_file2( 'fullHead2.txt', edges, polygons, csystems, screen, zbuffer, color, view, ambient, light, areflect, dreflect, sreflect)
