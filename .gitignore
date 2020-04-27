@@ -17,6 +17,8 @@
 *.obj
 *.elf
 
+*.ftpconfig
+
 # Linker output
 *.ilk
 *.map

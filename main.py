@@ -9,6 +9,8 @@ import math
 view = [0,
         0,
         1];
+normalize(view)
+
 ambient = [50,
            50,
            50]
@@ -18,15 +20,16 @@ light = [[0.5,
          [0,
           255,
           255]]
-areflect = [0.1,
-            0.1,
-            0.1]
-dreflect = [0.5,
-            0.5,
-            0.5]
-sreflect = [0.5,
-            0.5,
-            0.5]
+normalize(light[0])
+areflect = [.1,
+            .1,
+            .1]
+dreflect = [.5,
+            .5,
+            .5]
+sreflect = [.5,
+            .5,
+            .5]
 
 
 
